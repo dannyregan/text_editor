@@ -1,3 +1,6 @@
+# Danny Regan
+# CSC6003
+
 import string 
 import sys
 

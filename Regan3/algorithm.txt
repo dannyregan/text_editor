@@ -1,0 +1,15 @@
+Read the text file and store it as a variable for use thorughout the program
+Remove capitalizations and punctuation from the text for use throughout the code
+Split the text into a list where each word is its own element
+Create a loop displaying the menu options to the usher.
+The displayMenu function has a list of all the function titles. It goes through the list and prints a number, starting at 1 and increasing with each title, followed by the title.
+Have the user select an option. Their selection corresponds with a relevant function
+Call the relevant function. If the function alters the text in the file, return the updated text. Otherwise, just return the relevant information that the function provides
+The AllWordCount function looks through the text and makes a new sequence showing each word and how many times it appeared
+The single word count asks you what word you want to look up. It then looks through the text for the specific word and counts how many times it appears
+The LeastCommonWords function works the same way as AllWordCount, but sorts the list from least to greatest rather than greatest to least number of occurances
+The ReplaceWord function asks for a word to be replaced and a new word to swap it out for. Then, it looks through the text for the word to be replaced and changes it to the new one.
+The AddText function takes your new text and adds it to the end of the original text
+The DeleteText function looks for the first occurance of the word you want to delete. Then, it removes it from the text
+The highlight text works the same as the ReplaceWord function, but it changes the old word to its uppercase counterpart and adds some "**" on either side of it.
+Once all the changes have been made, the SaveFile function will join all the words together and seperate them by a space before overwriting the original file with the new text. It then quits the program
